@@ -1,0 +1,20 @@
+{
+  "name": "peros-nci",
+  "version": "0.1.0",
+  "description": "nest-create-react-app-integrate",
+  "main": "index.js",
+  "keywords": [],
+  "files": ["bin/*.js"],
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "concurrently": "> 8.2, < 8.6",
+    "express": "> 4.18, < 4.22",
+    "http-proxy-middleware": "> 2, < 2.4",
+    "wait-on": "> 7.2, < 7.6"
+  },
+  "bin": {
+    "nci": "./bin/nest-cra-integrate.js",
+    "nci-proxy": "./bin/proxy-server.js"
+  }
+}
